@@ -1,0 +1,4 @@
+[LIST1_839,1](Œﬁ€›
+
+[USER]Ç≥ÇÒÇÕ=SUMLIST(8,9,10)ï∂éöñ⁄Ç≈ÇøÇÒÇ€ÇèoÇπÇ‹ÇµÇΩÅI
+=IF(=OR(=SUMLIST(8,9,10) = 3,=SUMLIST(8,9,10) = 4,=SUMLIST(8,9,10) = 5),[LIST7,1],"")=IF(=OR(=SUMLIST(8,9,10) = 6,=SUMLIST(8,9,10) = 7,=SUMLIST(8,9,10) = 8,=SUMLIST(8,9,10) = 9,=SUMLIST(8,9,10) = 10),[LIST7,2],"")
