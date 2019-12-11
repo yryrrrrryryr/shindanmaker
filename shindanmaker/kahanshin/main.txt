@@ -1,0 +1,10 @@
+下半身ジャンケン！
+[USER] VS 不審者
+=CALC([LIST8_997]*[LIST9_997])回 [LIST7,1]
+2回 [LIST7,2]
+3回 [LIST7,3]
+4回 [LIST7,4]
+5回 [LIST7,5]
+6回 [LIST7,6]
+=IF(=SUMLIST(8)>=SUMLIST(9),You Win!,"")=IF(=SUMLIST(8)<=SUMLIST(9),You Lose…,"")=IF(=SUMLIST(8)==SUMLIST(9),Draw!,"")(=CALC(=SUMLIST(8)-1) 勝 =CALC(=SUMLIST(9)-1) 敗)
+=IF(=SUMLIST(10)=0,★下半身の平和は守られた！,"")
