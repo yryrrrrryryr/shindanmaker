@@ -1,6 +1,3 @@
 [USER]さんは、東京駅から=IF(=CALC([LIST1,1]+[LIST2_1]*[LIST1,6])>0,東,西)に=IF(=CALC([LIST1,1]+[LIST2_1]*[LIST1,6])>0,
-=CALC([LIST1,1]+[LIST2_1]*[LIST1,6],1),
-=CALC(-1*[LIST1,1]-[LIST2_1]*[LIST1,6]),1) km、=IF(=CALC([LIST1,2]+[LIST2_2]*[LIST1,6],1)>0,北,南)に=IF(=CALC([LIST1,2]+[LIST2_2]*[LIST1,6],1)>0,
-=CALC([LIST1,2]+[LIST2_2]*[LIST1,6],1),
-=CALC(-1*[LIST1,2]-[LIST2_2]*[LIST1,6],1)) km離れたこの場所に行ってらっしゃい！
+=CALC([LIST1,1]+[LIST2_1]*[LIST1,6],2),=CALC(-1*[LIST1,1]-[LIST2_1]*[LIST1,6]),2) km、=IF(=CALC([LIST1,2]+[LIST2_2]*[LIST1,6],1)>0,北,南)に=IF(=CALC([LIST1,2]+[LIST2_2]*[LIST1,6],1)>0,=CALC([LIST1,2]+[LIST2_2]*[LIST1,6],2),=CALC(-1*[LIST1,2]-[LIST2_2]*[LIST1,6],2)) km離れたこの場所に行ってらっしゃい！
 www.google.co.jp/maps/place/=CALC([LIST1,4]+[LIST2_2]*[LIST1,6]/111,5),=CALC([LIST1,3]+[LIST2_1]*[LIST1,6]/[LIST1,5],5)
